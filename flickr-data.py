@@ -19,7 +19,7 @@ api_secret = os.getenv('API_SECRET')
 flickr = flickrapi.FlickrAPI(api_key, api_secret, format='parsed-json')
 
 # Set username
-username = 'ici-et-ailleurs' # 13067705@N08
+username = 'YOUR_USERNAME' # Replace this with the username from your photstream URL: https://www.flickr.com/photos/YOUR_USERNAME/
 
 # Get user's photos
 page = 1
